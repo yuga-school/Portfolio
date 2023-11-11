@@ -1,0 +1,27 @@
+h1{
+    color : brown;
+    font-family: "Lucida Grande";
+}
+h2{
+    font-family: serif;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+li{
+    font-size: 20;
+    font-family: serif;
+}
+body{
+    background-color: antiquewhite;
+}
+.country{
+    color:blue;
+}
+.Birth{
+    color:red;
+}
+.Affiliation{
+    color:green;
+}
