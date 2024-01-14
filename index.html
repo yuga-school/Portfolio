@@ -53,19 +53,51 @@
             <div id="open6" style="display:none;clear:both;"><p class="op">ゲームやビジュアライザの作成に使用しています。</p></div>
          </ul>
       </div>
-      <div onclick="obj=document.getElementById('open10').style; obj.display=(obj.display=='none')?'block':'none'; document.getElementById('c10').innerText =(obj.display=='none')?'　　　　　　　　　　　　　　　　　　　　 　　 　　　　　自由課題　　　 　 　 　 　 　　　　　　　　　　　　　　　　　　＋':'　　　　　　　　　　　　　　　　　　　　 　　 　　　　　自由課題　　　 　 　 　 　 　　　　　　　　　　　　　　　　　　－';">
-      <a style="cursor:pointer;"><p class="pull2" id="c10">　　　　　　　　　　　　　　　　　　　　 　　 　　　　　自由課題　　　 　 　 　 　 　　　　　　　　　　　　　　　　　　＋</p></a>
+      <div onclick="obj=document.getElementById('openwork').style; obj.display=(obj.display=='none')?'block':'none'; document.getElementById('cwork').innerText =(obj.display=='none')?'　　　　　　　　　　　　　　　　　　　　 　　 　　　　　制作物　　　 　 　 　 　 　　　　　　　　　　　　　　　　　　　＋':'　　　　　　　　　　　　　　　　　　　　 　　 　　　　　制作物　　　 　 　 　 　 　　　　　　　　　　　　　　　　　　　－';">
+      <a style="cursor:pointer;"><p class="pull2" id="cwork">　　　　　　　　　　　　　　　　　　　　 　　 　　　　　制作物　　　 　 　 　 　 　　　　　　　　　　　　　　　　　　　＋</p></a>
       </div>
-      <div id="open10" style="display:none;clear:both;">
-      <p>プログラミング1の自由課題では、colabturtleを使ってTSPを簡単に可視化しました。</p>
-      <a href="https://colab.research.google.com/drive/1IMpc87mZp_2O3IwMuqgXfSlnKtCa4xCp?usp=sharing" class="download">自由課題を見る</a>
+      <div id="openwork" style="display:none;clear:both;">
+         <ul>
+            <div onclick="obj=document.getElementById('open10').style; obj.display=(obj.display=='none')?'block':'none'; document.getElementById('c10').innerText =(obj.display=='none')?'∇自由課題':'Δ自由課題';">
+            <a style="cursor:pointer;"><p class="pull" id="c10">∇自由課題</p></a>
+            </div>
+            <div id="open10" style="display:none;clear:both;"><p class="op">
+               <p>制作時期:2023年7月</p>
+               <p>プログラミング1の自由課題では、colabturtleを使ってTSPを簡単に可視化しました。</p>
+               <a href="https://colab.research.google.com/drive/1IMpc87mZp_2O3IwMuqgXfSlnKtCa4xCp?usp=sharing" class="download">自由課題を見る</a>
+            </p></div>
+            <HR size="1">
+            <div onclick="obj=document.getElementById('open9').style; obj.display=(obj.display=='none')?'block':'none'; document.getElementById('c9').innerText =(obj.display=='none')?'∇2年高専祭':'Δ2年高専祭';">
+            <a style="cursor:pointer;"><p class="pull" id="c9">∇2年高専祭</p></a>
+            </div>
+            <div id="open9" style="display:none;clear:both;"><p class="op">
+               <p>制作時期:2023年9月～11月</p>
+               <p>高専祭ではオセロゲームの対戦相手を作ることに携わりました。</p>
+               <a href="https://xgf.nu/2SyR6" download="gigafile-1117-364873a67617c0d88df4cb2ca9bcb21c.zip" class="download">制作物のファイルをダウンロードする</a>
+            </p></div>
+            <HR size="1">
+            <div onclick="obj=document.getElementById('open11').style; obj.display=(obj.display=='none')?'block':'none'; document.getElementById('c11').innerText =(obj.display=='none')?'∇Merge 2048':'ΔMerge 2048';">
+               <a style="cursor:pointer;"><p class="pull" id="c11">∇Merge 2048</p></a>
+               </div>
+               <div id="open11" style="display:none;clear:both;"><p class="op">
+               <p>制作時期:2023年12月～1月</p>
+               <p>ゲーム説明</p>
+               <p>このゲームはボールが決められた範囲外に出ないようにボールを落とすゲームです。落とせるボールは3種類で無作為に選ばれます。</p>
+               <p>ボールを落とすと、そのボールに書かれた数だけ点数を獲得します。書かれた数が同じボール同士が衝突すると合成して、元のボール</p>
+               <p>に書かれた数の2倍の数が書かれたボールになります。このとき、元のボールに書かれた数だけ点数を獲得します。</p>
+               <p>もし一度落としたボールが範囲外に出ると、ゲームオーバーとなりリザルト画面が表示されます。</p>
+               <img class="merge2048" src="merge2048_display_merge.png">
+               <br>
+               <img class="merge2048" src="merge2048_display_gameoverline.png">
+               <br>
+               <p>ボールが範囲外に出そうになると点線が現れる。</p>
+               <img class="merge2048" src="merge2048_display_gameover.png">
+               <p>ボールが範囲外に出るとリザルト画面が表示される。"RETRY"を押すと始めからプレイできる。</p>
+            </p></div>
+            <HR size="1">
+            </div>
+         </ul>
       </div>
-      <div onclick="obj=document.getElementById('open9').style; obj.display=(obj.display=='none')?'block':'none'; document.getElementById('c9').innerText =(obj.display=='none')?'　　　　　　　　　　　　　　　　　　　　 　　 　　　　高専祭制作物　　　 　 　 　 　 　　　　　　　　　　　　　　　　　＋':'　　　　　　　　　　　　　　　　　　　　 　　 　　　　高専祭制作物　　　 　 　 　 　 　　　　　　　　　　　　　　　　　－';">
-      <a style="cursor:pointer;"><p class="pull2" id="c9">　　　　　　　　　　　　　　　　　　　　 　　 　　　　高専祭制作物　　　 　 　 　 　 　　　　　　　　　　　　　　　　　＋</p></a>
-      </div>
-      <div id="open9" style="display:none;clear:both;">
-      <p>高専祭ではオセロゲームの対戦相手を作ることに携わりました。</p>
-      <a href="https://xgf.nu/2SyR6" download="gigafile-1117-364873a67617c0d88df4cb2ca9bcb21c.zip" class="download">制作物のファイルをダウンロードする</a>
       </div>
    </body>
 </html>
